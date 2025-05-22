@@ -25,6 +25,6 @@ It will make A LOT of syntax errors. It's unavoidable. This is far from perfect 
 # Example uses
 In PenguinMod
 ![image](https://github.com/user-attachments/assets/68f7d850-b32c-487c-91d7-b697e646033b)
-![image](https://github.com/user-attachments/assets/924e187f-93ec-447a-9300-e3773b051f58)
+![image](https://github.com/user-attachments/assets/924e187f-93ec-447a-9300-e3773b051f58)  
 In TurboWarp
 ![image](https://github.com/user-attachments/assets/52b8ea65-f496-4610-8afe-ec331854daad)
