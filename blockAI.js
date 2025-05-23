@@ -7911,7 +7911,7 @@
       }
 
       const scriptBlob = new Blob([scriptJson], { type: "application/json" });
-      const scriptFile = new File([scriptBlob], "script.json", {
+      const scriptFile = new File([scriptBlob], "currentSprite.json", {
         type: "text/plain",
       });
 
