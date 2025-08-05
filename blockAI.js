@@ -7332,7 +7332,8 @@
     apiKey = defaultApiKey;
     selectedStyle = "scratch3";
     maxHistoryLength = 10;
-    geminiVersion = "gemini-2.5-flash";
+    //keeping the default to 2.0 for now because of the quota limits
+    geminiVersion = "gemini-2.0-flash";
   }
   if (localStorage.getItem("blockaigeminiext.settings") == null) {
     setDefaultSettings();
@@ -7357,7 +7358,7 @@
     maxHistoryLength = 10;
   }
   if (geminiVersion == undefined) {
-    geminiVersion = "gemini-2.5-flash";
+    geminiVersion = "gemini-2.0-flash";
   }
 
   function fixBlockStyleSize() {
