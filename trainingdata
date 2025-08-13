@@ -932,3 +932,12 @@ define project 3d point (x) (y) (z)
   set [screen_y v] to ((screen_y) * (100))
   go to x: (screen_x) y: (screen_y)
   ```
+
+always do comments like this:
+```scratch
+when green flag clicked // when the project starts
+  forever // repeat forever
+    move (10) steps // moves the sprite 10 steps
+    wait (1) secs // waits 1 seccond
+  end
+```
