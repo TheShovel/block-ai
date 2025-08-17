@@ -941,3 +941,13 @@ when green flag clicked // when the project starts
     wait (1) secs // waits 1 seccond
   end
 ```
+
+```scratch
+define is within radius (x1) (y1) (x2) (y2) (radius) (padding)
+  set [dist v] to ([sqrt v] of ((((x1) - (x2)) * ((x1) - (x2))) + (((y1) - (y2)) * ((y1) - (y2)))))
+  if <(dist) < ((radius) + (padding))> then
+    return (true):: custom cap
+  else
+    return (false):: custom cap
+  end
+  ```
